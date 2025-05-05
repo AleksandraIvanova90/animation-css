@@ -1,0 +1,50 @@
+.task1 {
+  max-width: 700px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.task1-button {
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(133, 189, 235);
+  transition: background-color 2s;
+  color: aliceblue;
+  padding-top: 10px;
+  width: 90px;
+  height: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.task1-button:hover {
+  background-color: blue;
+}
+
+
+.task1-content {
+  width: auto;
+  max-height: 0;
+  padding: 10px;
+  word-break: normal;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, border 0.5s ease-out;
+  border: transparent;
+}
+
+ .text {
+  display: flex;
+ }
+
+.plug{
+  display: none;
+}
+.open {
+  max-height: 75px;
+  border: 2px rgb(192, 190, 190) solid;
+  display: flex;
+  transition: max-height 0.5s ease, border 0.5s ease;
+}
+
